@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta
+      name="viewport"
+      content="initial-scale=1, width=device-width, viewport-fit=cover"
+    />
+    <!-- <meta name="color-scheme" content="light dark"> -->
+
+    <title>Formulaire</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- <script src="cordova.js" defer></script> -->
+    <script src="js/script.js" defer></script>
+  </head>
+
+  <body>
+    <h1>Gestion des contacts</h1>
+    <form action="">
+      <div>
+        <label for="nomInput">Nom</label>
+        <input id="nomInput" type="text" autocomplete="off" />
+        <p id="nomErreur"></p>
+      </div>
+      <div>
+        <label for="prenomInput">Prénom</label>
+        <input id="prenomInput" type="text" autocomplete="off" />
+        <p id="prenomErreur"></p>
+      </div>
+      <div>
+        <label for="telephoneInput">Téléphone</label>
+        <input
+          id="telephoneInput"
+          type="text"
+          autocomplete="off"
+          placeholder="01 23 45 67 89"
+        />
+        <p id="telephoneErreur"></p>
+      </div>
+      <div>
+        <label for="emailInput">Email</label>
+        <input
+          id="emailInput"
+          type="text"
+          autocomplete="off"
+          placeholder="exemple@gmail.com"
+        />
+        <p id="emailErreur"></p>
+      </div>
+
+      <button id="ajouter">Ajouter un contact</button>
+      <!-- <button id="trouver">Trouver un contact</button>
+    <button id="supprimer">Supprimer un contact</button> -->
+    </form>
+  </body>
+</html>

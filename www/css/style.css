@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+form > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0.5rem;
+}
+
+label {
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+input {
+  outline: 0;
+}
+
+p {
+  flex: 1 100%;
+  display: none;
+  margin: 0.5rem 0 2rem;
+  color: red;
+  border-bottom: 1px solid red;
+}
+
+button {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
